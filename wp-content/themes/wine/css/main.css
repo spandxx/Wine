@@ -1,3 +1,4 @@
+/* RESET */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -44,28 +45,74 @@ table {
 
 
 
+/* HEADER */
 
 header{
 	width: 100%;
 	background-color: #c1403d;
 }
 
-#imglogo{
-	margin-left: 5%;
-	padding-top: 2%;
-	float: left;
+.colornavbarheader{
+	background-color: #c1403d;
+	border: none;
+}
+
+
+
+/* HOMEPAGE */
+
+.inlineblock{
+	display: inline-block;
+	margin-top: 2%;
+	margin-left: 2%; 
+}
+
+.logonat{
+	float: right;
+	margin-right: 3%;
 }
 
 #home{
-	background: url('../img/BACKGROUND.png') no-repeat fixed; 
-  	-webkit-background-size: cover; /* pour anciens Chrome et Safari */
-  	background-size: cover; /* version standardisée */
-	height: 100%;
-	min-height: 818px;
-	/*width: 100%;*/
+	background: url("../img/background.png") no-repeat;
+	background-position: 0px 80px;
+	width: 100%;
+	min-height: 918px;
+}
+
+#home .searchbox{
+	width: 55%;
+	margin: 0 auto;
+	padding-top: 3%;
+}
+
+#home .boxsearch{
+	height: 70px;
+	font-size: 2em;
+	-webkit-border-radius: 15px 0 0 15px;
+	border-radius: 15px 0 0 15px;
+}
+
+#home .buttonsearch{
+	height: 70px;
+	-webkit-border-radius: 0 15px 15px 0;
+	border-radius: 0 15px 15px 0;
+	background-color: #c1403d;
+	border: none;
+}
+
+#home h1{
+	padding-top: 23%;
+	color: #ffffff;
+	font-family: 'dense-regular';
+	text-align: center;
+	font-size: 5em;
 }
 
 
+
+
+
+/* FOOTER */
 
 footer{
 	width: 100%;
@@ -73,4 +120,18 @@ footer{
 	background-color: #c1403d;
 	bottom :0;
 	position: fixed;
+}
+
+
+
+/* FONTS */
+
+@font-face {
+    font-family: 'coolvetica';
+    src: url(" ../fonts/coolvetica_rg.ttf");
+}
+
+@font-face {
+    font-family: 'dense-regular';
+    src: url(" ../fonts/dense-regular.otf");
 }

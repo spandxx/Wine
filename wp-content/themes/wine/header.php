@@ -2,25 +2,18 @@
 <html lang="fr">
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?> /style/bootstrap.css" type="text/css" media="screen" />
-	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?> /style/main.css" type="text/css" media="screen" />
-	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?> /js/bootstrap.css" type="text/css" media="screen" />
+  <script src="<?php bloginfo('template_directory'); ?> /js/bootstrap.js" type="text/javascript" ></script>
+	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?> /css/bootstrap.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?> /css/main.css" type="text/css" media="screen" />
 </head>
 <body>
 	
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-inverse navbar-fixed-top colornavbarheader">
   <div class="container-fluid">
-
-    <div class="navbar-header">
-
-    	<form class="navbar-form navbar-left" role="search">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>
-      
+    <div class="navbar">
+      <a href="#"><img class="img-responsive inlineblock" src="<?php bloginfo('template_directory'); ?> /img/logo.png"></a>
+      <a href="#"><img class="img-responsive inlineblock logonat " src="<?php bloginfo('template_directory'); ?> /img/logofr.png"></a>
+      <a href="#"><img class="img-responsive inlineblock logonat " src="<?php bloginfo('template_directory'); ?> /img/logoen.png"></a>
     </div>
-
-  </div><!-- /.container-fluid -->
+  </div>
 </nav>
