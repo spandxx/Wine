@@ -8,6 +8,12 @@
 				<button type="submit" class="btn btn-primary buttonsearch" data-type="last">Rechercher</button>
 			</span>
 		</div>
+
+
+	<h2><a href="index.php?p=8">Décuvage</a><a href="index.php?p=16">Blanc</a></h2>
+
+
 	</div>
+
 
 <?php get_footer(); ?>

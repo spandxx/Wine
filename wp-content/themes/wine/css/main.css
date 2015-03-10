@@ -108,6 +108,12 @@ header{
 	font-size: 5em;
 }
 
+#home h2{
+	color: red;
+	font-size: 3em;
+	padding-top: 5%;
+}
+
 
 
 /* ARTICLES */
