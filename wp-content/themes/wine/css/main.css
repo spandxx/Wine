@@ -110,6 +110,55 @@ header{
 
 
 
+/* ARTICLES */
+
+.titredef {
+	font-family: 'coolvetica';
+	font-size: 3em;
+	color: #c1403d;
+	margin-top: 180px;
+	margin-bottom: 30px;
+
+}
+
+.titredef small{
+	font-family: 'coolvetica';
+	font-size: 0.3em;
+	color: #434242;
+	margin-left: 100px;
+	
+}
+
+#definition h2 {
+	font-family: 'coolvetica';
+	font-size: 1.1em;
+	color: #c1403d;
+	margin-top: 30px;
+	margin-bottom: 8px;
+
+}
+
+#definition p {
+	font-family: 'coolvetica';
+	font-size: 1em;
+	color: #434242;
+	line-height: 19px;
+}
+
+#definition li {
+	font-family: 'coolvetica';
+	font-size: 1em;
+	color: #434242;
+	line-height: 19px;
+}
+
+.pub{
+	margin-top: 180px;
+	margin-bottom: 200px;
+	
+}
+
+
 
 
 /* FOOTER */
@@ -120,6 +169,7 @@ footer{
 	background-color: #c1403d;
 	bottom :0;
 	position: fixed;
+
 }
 
 
@@ -134,4 +184,17 @@ footer{
 @font-face {
     font-family: 'dense-regular';
     src: url(" ../fonts/dense-regular.otf");
+}
+
+
+
+/*----------------
+	  Responsive
+	  -----------------*/
+@media screen and (min-width: 240px) and (max-width: 900px) {
+/*.pub {
+  display: none !important;
+  visibility: hidden !important;
+	}
+*/
 }
