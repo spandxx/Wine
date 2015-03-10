@@ -191,10 +191,10 @@ footer{
 /*----------------
 	  Responsive
 	  -----------------*/
-@media screen and (min-width: 240px) and (max-width: 900px) {
-/*.pub {
+@media screen and (min-width: 240px) and (max-width: 800px) {
+.pub {
   display: none !important;
   visibility: hidden !important;
 	}
-*/
+
 }
