@@ -2,7 +2,6 @@
 <html lang="fr">
 <head>
 	<meta charset="UTF-8">
-  <script src="<?php bloginfo('template_directory'); ?> /js/bootstrap.js" type="text/javascript" ></script>
 	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?> /css/bootstrap.css" type="text/css" media="screen" />
   <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?> /css/main.css" type="text/css" media="screen" />
 </head>

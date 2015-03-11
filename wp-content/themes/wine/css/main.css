@@ -175,7 +175,14 @@ footer{
 	background-color: #c1403d;
 	bottom :0;
 	position: fixed;
+}
 
+footer h2{
+	text-align: center;
+	color: white;
+	padding-top: 1%;
+	font-family: 'dense-regular';
+	font-size: 2em;
 }
 
 

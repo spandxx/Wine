@@ -7,7 +7,14 @@
       <div class="row">
        <div class="col-sm-7 blog-main">
 
-        <h1 class="titredef"><?php the_title(); ?><small a href="#">Retour à la liste des mots</small></h1> 
+        <h1 class="titredef">
+          <?php the_title(); ?> 
+          <!--<?php
+            foreach((get_the_category()) as $category) {
+            echo $category->cat_name . ' ';
+            }
+          ?>-->
+        <small a href="#">Retour à la liste des mots</small></h1> 
         
         <p class="contentdef"><?php the_content(); ?> </p>
 
