@@ -3,7 +3,7 @@
 	<div id="home">
 		<h1>Vous cherchez une définition ?</h1>
 		<div class="input-group form-search searchbox">
-			<input class="form-control search-query boxsearch"> 
+			<input class="form-control search-query boxsearch" id="recherche"> 
 			<span class="input-group-btn">
 				<button type="submit" class="btn btn-primary buttonsearch" data-type="last">Rechercher</button>
 			</span>

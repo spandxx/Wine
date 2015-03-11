@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?> /css/bootstrap.css" type="text/css" media="screen" />
   <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?> /css/main.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/themes/smoothness/jquery-ui.css" />
 </head>
 <body>
 	

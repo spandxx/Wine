@@ -13,7 +13,7 @@
             foreach((get_the_category()) as $category) {
             echo $category->cat_name . ' ';
             }
-          ?>-->
+          ?> AFFICHER LA CATEGORIE-->
         <small a href="#">Retour à la liste des mots</small></h1> 
         
         <p class="contentdef"><?php the_content(); ?> </p>
