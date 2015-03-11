@@ -2,7 +2,6 @@
 	
 	<h2><b>2014</b> LE DICO DU VIN</h2>
 
-
 </footer>
 
 
@@ -18,7 +17,7 @@
 			var searchBar = $('#recherche');
 			if (searchBar.length) {
 				searchBar.autocomplete({
-					source: [ "c++", "java", "php", "coldfusion", "javascript", "asp", "ruby" ],
+					source: [ "c++", "java", "php", "coldfusion", "javascript", "asp", "ruby" ], <!-- ICI METTRE LES ARTICLES WP -->
 					minLength : 3
 				});
 			}
