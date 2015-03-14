@@ -17,8 +17,17 @@
 			var searchBar = $('#recherche');
 			if (searchBar.length) {
 				searchBar.autocomplete({
-					source: [ "c++", "java", "php", "coldfusion", "javascript", "asp", "ruby" ], <!-- ICI METTRE LES ARTICLES WP -->
-					minLength : 3
+					<?php	$my_query = new WP_Query('post_type=post');
+					$array = [];
+					$i = 0;
+			if( $my_query->have_posts() ) : while( $my_query->have_posts() ) : $my_query->the_post();
+
+				array_push($array, get_the_title());
+				$i;
+			endwhile;
+				echo 'source :' . json_encode($array) . ',';
+			 endif; ?>
+					minLength : 1
 				});
 			}
 		})();
