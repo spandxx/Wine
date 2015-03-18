@@ -10,7 +10,7 @@
 			the_title();
 			echo '</li>';
 		endwhile;
-		 
+ 
 		wp_reset_query();
 		 
 	?>
