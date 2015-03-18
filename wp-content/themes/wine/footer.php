@@ -3,8 +3,14 @@
 	<!--<h2><b>2014</b> LE DICO DU VIN</h2>-->
 
 	<!-- AFFICHER LES CATEGORIES -->
-	<?php wp_list_categories(); ?>
-
+	<ul class="categories">
+	<?php
+		$args = array(
+			'title_li' => ''
+			);
+		wp_list_categories($args);
+	?>
+	</ul>
 </footer>
 
 
