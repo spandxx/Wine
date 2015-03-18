@@ -57,15 +57,14 @@ header{
 	border: none;
 }
 
-
+.inlineblock{
+	display: inline-block;
+	margin-top: 1.5%;
+	margin-left: 2%; 
+}
 
 /* HOMEPAGE */
 
-.inlineblock{
-	display: inline-block;
-	margin-top: 2%;
-	margin-left: 2%; 
-}
 
 .logonat{
 	float: right;
@@ -73,10 +72,11 @@ header{
 }
 
 #home{
-	background: url("../img/background.png") no-repeat;
-	background-position: 0px 80px;
-	width: 100%;
-	min-height: 918px;
+	background: url("../img/bd.jpg") no-repeat center fixed; 
+  	-webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  	background-size: cover; /* version standardisée */
+  	width: 100%;
+  	height: 880px;
 }
 
 #home .searchbox{
@@ -210,4 +210,10 @@ footer h2{
   visibility: hidden !important;
 	}
 
+}
+
+
+#test{
+	width: 100%;
+	height: 500px;
 }
