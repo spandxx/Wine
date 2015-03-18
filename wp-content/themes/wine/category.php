@@ -36,6 +36,21 @@
 			</div>
 		</div>
 	</div>
+<<<<<<< HEAD
 </section>
+=======
+	<!-- POUR AFFICHER LES NOMS DES ARTICLES DANS LA CATEGORIE -->
+	<?php
+
+		while ( have_posts() ) : the_post();
+			echo '<li>';
+			the_title();
+			echo '</li>';
+		endwhile;
+ 
+		wp_reset_query();
+		 
+	?>
+>>>>>>> bad67c5ec2c39791de6f3c46c47e432dd18415f1
 
 <?php get_footer(); ?>

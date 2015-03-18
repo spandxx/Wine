@@ -12,7 +12,6 @@
 
 	<h2><a href="index.php?p=8">Décuvage</a><a href="index.php?p=16">Blanc</a></h2>
 
-		
 
 	</div>
 
