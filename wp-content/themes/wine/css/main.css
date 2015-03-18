@@ -149,6 +149,7 @@ header{
 	font-size: 1em;
 	color: #434242;
 	line-height: 19px;
+	text-align: justify;
 }
 
 #definition li {
