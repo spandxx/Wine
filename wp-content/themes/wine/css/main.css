@@ -191,7 +191,21 @@ footer h2{
 	font-size: 2em;
 }
 
+.categories li{
+	display: inline-block;
+	text-decoration: none;
+}
 
+ul.categories {
+	text-align: center;
+	padding-top: 20px;	
+}
+
+.categories a{
+	color: white;
+	font-size: 1.5em;
+	padding: 5px;
+}
 
 /* FONTS */
 
