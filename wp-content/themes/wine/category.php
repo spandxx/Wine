@@ -1,6 +1,7 @@
 <?php get_header(); ?>
 
-
+ 	<div id="test">
+	</div>
 	<!-- POUR AFFICHER LES NOMS DES ARTICLES DANS LA CATEGORIE -->
 	<?php
 
