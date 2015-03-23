@@ -166,7 +166,49 @@ header{
 }
 
 
+/* PAGE CATEGORIES */
 
+#fake-head{
+	width: 100%;
+	height: 100px;
+}
+
+#cat h1 {
+	width: 160px;
+	height: 200px;	
+	background-color: #c1403d;
+	border: none;
+	text-align: center;
+	font-family: 'coolvetica';
+	font-size: 65px;
+	color: white;
+	padding-top: 65px;
+
+}
+
+.pub-cat{
+	margin-top: 30px;
+	width: 160px;
+	height: 400px;	
+	
+}
+
+.list-cat {
+	font-family: 'coolvetica';
+	font-size: 25px;
+}
+
+
+
+#titre-cat{
+	text-align: center;
+	padding-bottom: 50px;
+	border-right: solid 4px #e1a4a1;
+}
+
+#titre-cat::first-letter{
+	color: #c1403d;
+}
 
 /* FOOTER */
 
@@ -221,15 +263,15 @@ ul.categories {
 	  Responsive
 	  -----------------*/
 @media screen and (min-width: 240px) and (max-width: 800px) {
+
 .pub {
   display: none !important;
   visibility: hidden !important;
 	}
 
+
+
+
 }
 
 
-#test{
-	width: 100%;
-	height: 200px;
-}
