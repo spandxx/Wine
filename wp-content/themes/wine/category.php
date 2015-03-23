@@ -1,12 +1,12 @@
 <?php get_header(); ?>
 
-<div id="test">
+<div id="fake-head">
 </div>
 <!-- POUR AFFICHER LES NOMS DES ARTICLES DANS LA CATEGORIE -->
 <section id="cat">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-7 lettre">
+			<div class="col-xs-6 col-sm-3 lettre">
 				<h1 class="titrelettre">
 				<?php          
 				foreach((get_the_category()) as $category) {
@@ -14,43 +14,36 @@
 				}
 				?>
 				</h1>
-				<img class="img-responsive pub" src="<?php bloginfo('template_directory'); ?> /img/calque2.png"></a>
+				<img class="img-responsive pub-cat" src="<?php bloginfo('template_directory'); ?> /img/calque2.png"></a>
 
 			</div>
 
 
 
-			<div class="col-sm-2 col-sm-offset-2 blog-sidebar">     	
+			<div class="col-xs-6 col-sm-3 col-sm-offset-2 list-cat">
+			     
 				<?php
 
 				while ( have_posts() ) : the_post();
+				?>
 
-				echo '<li>';
-				the_title();
-				echo '</li>';
+				<div id="titre-cat">
+				
+				<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a>
+
+				</div>
+
+				<?php
 				endwhile;
 
 				wp_reset_query();
 
 				?>
+
 			</div>
 		</div>
 	</div>
-<<<<<<< HEAD
-</section>
-=======
-	<!-- POUR AFFICHER LES NOMS DES ARTICLES DANS LA CATEGORIE -->
-	<?php
 
-		while ( have_posts() ) : the_post();
-			echo '<li>';
-			the_title();
-			echo '</li>';
-		endwhile;
- 
-		wp_reset_query();
-		 
-	?>
->>>>>>> bad67c5ec2c39791de6f3c46c47e432dd18415f1
+</section>
 
 <?php get_footer(); ?>
