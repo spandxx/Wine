@@ -20,6 +20,7 @@
 		<!--<script src="<?php bloginfo('template_directory');?>/js/bootstrap.js"></script>-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
 		<!--<script src="<?php bloginfo('template_directory');?>/js/jquery-ui.js"></script>-->
+		<script src="<?php bloginfo('template_directory');?>/js/alert.js"></script>
 	
 	<!--<script>
 		(function(){
@@ -41,6 +42,7 @@
 			}
 		})();
 	</script>-->
+
 
 </body>
 </html>

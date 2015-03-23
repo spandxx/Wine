@@ -2,7 +2,7 @@
 
 <div id="fake-head">
 </div>
-<!-- POUR AFFICHER LES NOMS DES ARTICLES DANS LA CATEGORIE -->
+
 <section id="cat">
 	<div class="container">
 		<div class="row">
