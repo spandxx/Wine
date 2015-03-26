@@ -14,16 +14,16 @@
 				}
 				?>
 				</h1>
-				<img class="img-responsive pub-cat" src="<?php bloginfo('template_directory'); ?> /img/calque2.png"></a>
+				<img class="img-responsive pub-cat" src="<?php bloginfo('template_directory'); ?>/img/calque2.png"></a>
 
 			</div>
 
 
 
 			<div class="col-xs-6 col-sm-3 col-sm-offset-2 list-cat">
+			    
 			     
 				<?php
-
 				while ( have_posts() ) : the_post();
 				?>
 

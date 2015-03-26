@@ -43,6 +43,10 @@ table {
 	border-spacing: 0;
 }
 
+body{
+	width: 100%;
+	height: 100%;
+}
 
 
 /* HEADER */
@@ -60,7 +64,6 @@ header{
 .inlineblock{
 	display: inline-block;
 	margin-top: 1.5%;
-	margin-left: 2%; 
 }
 
 /* HOMEPAGE */
@@ -73,10 +76,10 @@ header{
 
 #home{
 	background: url("../img/bd.jpg") no-repeat center fixed; 
-  	-webkit-background-size: cover; /* pour anciens Chrome et Safari */
-  	background-size: cover; /* version standardisée */
+  	-webkit-background-size: cover; 
+  	background-size: cover;
   	width: 100%;
-  	height: 880px;
+  	min-height: 900px;
 }
 
 #home .searchbox{
@@ -86,14 +89,14 @@ header{
 }
 
 #home .boxsearch{
-	height: 70px;
+	height: 50px;
 	font-size: 2em;
 	-webkit-border-radius: 15px 0 0 15px;
 	border-radius: 15px 0 0 15px;
 }
 
 #home .buttonsearch{
-	height: 70px;
+	height: 50px;
 	-webkit-border-radius: 0 15px 15px 0;
 	border-radius: 0 15px 15px 0;
 	background-color: #c1403d;
@@ -227,14 +230,6 @@ footer{
 	position: fixed;
 }
 
-footer h2{
-	text-align: center;
-	color: white;
-	padding-top: 1%;
-	font-family: 'dense-regular';
-	font-size: 2em;
-}
-
 .categories li{
 	display: inline-block;
 	text-decoration: none;
@@ -264,6 +259,11 @@ ul.categories {
     src: url(" ../fonts/dense-regular.otf");
 }
 
+@font-face {
+	font-family: 'glyphicons-halflings-regular.eot';
+	src: url("../fonts/glyphicons-halflings-regular.eot");
+}
+
 
 
 /*----------------
@@ -276,9 +276,102 @@ ul.categories {
   visibility: hidden !important;
 	}
 
+}
 
 
+/* HOME */
+
+@media (max-width: 240px) {
+
+	#home h1{
+		font-size: 2em;
+		padding-top: 65%;
+	}
+
+	#home .searchbox{
+		width: 90%;
+		padding-top: 10%;
+	}
+
+	#home .boxsearch{
+		height: 30px;
+	}
+
+	#home .buttonsearch{
+		height: 30px;
+	}
+
+	ul.categories {
+	padding-top: 10px;	
+}
+	
+	.categories a{
+		font-size: 0.8em;
+		padding: 3px;
+	}
+
+	.logonat{
+		display: none;
+	}
 
 }
 
+@media (min-width: 240px) and (max-width: 320px) {
+
+	#home h1{
+		font-size: 2.5em;
+		padding-top: 55%;
+	}
+
+	#home .searchbox{
+		width: 90%;
+		padding-top: 10%;
+	}
+
+	#home .boxsearch{
+		height: 30px;
+	}
+
+	#home .buttonsearch{
+		height: 30px;
+	}
+
+	.categories a{
+		font-size: 1em;
+	}
+
+	.logonat{
+		display: none;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+	
+	#home h1{
+		font-size: 2.5em;
+		padding-top: 35%;
+	}
+
+	#home .searchbox{
+		width: 90%;
+		padding-top: 10%;
+	}
+
+	#home .boxsearch{
+		height: 30px;
+	}
+
+	#home .buttonsearch{
+		height: 30px;
+	}
+
+	.categories a{
+		font-size: 1em;
+	}
+
+	.logonat{
+		display: none;
+	}
+
+}
 
