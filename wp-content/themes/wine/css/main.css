@@ -123,17 +123,28 @@ header{
 	margin-top: 165px;
 }
 
-.titredef a{
+.big{
 	font-family: 'coolvetica';
 	font-size: 3em;
 	color: #c1403d;
+
 }
 
-.titredef small{
+.big:hover{
+	color: #c1403d;
+	text-decoration: none;
+}
+
+.revenir {
 	font-family: 'coolvetica';
 	font-size: 1em;
 	color: #434242;
 	margin-left: 100px;	
+}
+
+.revenir:hover {
+	color: #c1403d;
+	text-decoration: none;
 }
 
 

@@ -8,7 +8,7 @@
        <div class="col-sm-7 blog-main">
 
         <h1 class="titredef">
-          <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a>
+          <a class="big"><?php the_title(); ?></a>
           <!-- AFFICHER LA CATEGORIE
             <?php
               foreach((get_the_category()) as $category) {
@@ -16,7 +16,7 @@
               }
             ?> 
           -->
-          <small a href="#">Retour à la liste des mots</small></h1> 
+          <a class="revenir" href="<?php echo $_SERVER['HTTP_REFERER']; ?>">Retour à la liste des mots</a></h1> 
 
           <p class="contentdef"><?php the_content(); ?> </p>
 
