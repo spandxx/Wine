@@ -235,7 +235,7 @@ header{
 
 footer{
 	width: 100%;
-	height: 70px;
+	height: 50px;
 	background-color: #c1403d;
 	bottom :0;
 	position: fixed;
@@ -248,7 +248,7 @@ footer{
 
 ul.categories {
 	text-align: center;
-	padding-top: 20px;	
+	padding-top: 15px;	
 }
 
 .categories a{
@@ -289,10 +289,73 @@ ul.categories {
 
 }
 
+/* HEADER */ 
+
+@media screen and (min-width: 240px) and (max-width: 768px) {
+
+	.logonat{
+		display: none;
+	}
+
+}
+
+
+/* FOOTER */
+
+@media screen and (max-width: 240px) {
+
+	ul.categories {
+	padding-top: 10px;	
+	}
+	
+	.categories a{
+		font-size: 0.8em;
+		padding: 2px;
+	}
+
+}
+
+@media screen and (min-width: 240px) and (max-width: 320px) {
+
+	ul.categories {
+	padding-top: 8px;	
+	}
+
+	.categories a{
+		font-size: 1em;
+	}
+	
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+	ul.categories{
+		padding-top: 8px;
+	}
+
+	.categories a{
+		font-size: 1em;
+	}
+	
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+
+	.categories a{
+		font-size: 1em;
+	}
+
+}
+
+
 
 /* HOME */
 
-@media (max-width: 240px) {
+@media screen and (max-width: 240px) {
+
+	#home{
+		min-height: 500px;
+	}
 
 	#home h1{
 		font-size: 2em;
@@ -312,23 +375,14 @@ ul.categories {
 		height: 30px;
 	}
 
-	ul.categories {
-	padding-top: 10px;	
 }
+
+@media screen and (min-width: 240px) and (max-width: 320px) {
+
+	#home{
+		min-height: 500px;
+	}
 	
-	.categories a{
-		font-size: 0.8em;
-		padding: 3px;
-	}
-
-	.logonat{
-		display: none;
-	}
-
-}
-
-@media (min-width: 240px) and (max-width: 320px) {
-
 	#home h1{
 		font-size: 2.5em;
 		padding-top: 55%;
@@ -347,17 +401,14 @@ ul.categories {
 		height: 30px;
 	}
 
-	.categories a{
-		font-size: 1em;
-	}
-
-	.logonat{
-		display: none;
-	}
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
 	
+	#home{
+		min-height: 500px;
+	}
+
 	#home h1{
 		font-size: 2.5em;
 		padding-top: 35%;
@@ -376,19 +427,14 @@ ul.categories {
 		height: 30px;
 	}
 
-	.categories a{
-		font-size: 1em;
-	}
-
-	.logonat{
-		display: none;
-	}
-
 }
+
+
+/* ARTICLES */
 
 @media screen and (min-width: 240px) and (max-width: 400px) {
 
-#cat h1 {
+#cat h1{
 	width: 120px;
 	height: 200px;	
 	background-color: #c1403d;
@@ -398,15 +444,12 @@ ul.categories {
 	font-size: 65px;
 	color: white;
 	padding-top: 65px;
-	
-	
 	}
 
 #titre-cat{
 	text-align: center;
 	padding-bottom: 50px;
 	border-right: solid 4px #e1a4a1;
-	
 	}
 
 #fake-head{
@@ -422,4 +465,4 @@ ul.categories {
 	}
 }
 
-
+/* PAGE CATEGORIES */

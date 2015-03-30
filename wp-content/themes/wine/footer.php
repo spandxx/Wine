@@ -38,7 +38,7 @@
 			endwhile;
 				echo 'source :' . json_encode($array) . ',';
 			 endif; ?>
-					minLength : 1
+					minLength : 3
 				});
 			}
 		})();
