@@ -13,6 +13,7 @@
 					echo $category->cat_name . ' '; 
 				}
 				?>
+
 				</h1>
 				<img class="img-responsive pub-cat" src="<?php bloginfo('template_directory'); ?>/img/calque2.png"></a>
 
@@ -25,6 +26,7 @@
 			     
 				<?php
 				while ( have_posts() ) : the_post();
+				
 				?>
 
 				<div id="titre-cat">
@@ -39,6 +41,7 @@
 				wp_reset_query();
 
 				?>
+
 
 			</div>
 		</div>

@@ -43,11 +43,10 @@ table {
 	border-spacing: 0;
 }
 
-body{
+html, body{
 	width: 100%;
 	height: 100%;
 }
-
 
 /* HEADER */
 
@@ -75,17 +74,21 @@ header{
 }
 
 #home{
-	background: url("../img/bd.jpg") no-repeat center fixed; 
-  	-webkit-background-size: cover; 
+	background: url("../img/bd.jpg") no-repeat center fixed;
   	background-size: cover;
   	width: 100%;
-  	min-height: 900px;
+  	height: 100%;
 }
 
-#home .searchbox{
-	width: 55%;
+#home #searchform{
 	margin: 0 auto;
+	width: 55%;
 	padding-top: 3%;
+}
+
+#home #s{
+	width: 96%;
+	float: left;
 }
 
 #home .boxsearch{
@@ -353,18 +356,9 @@ ul.categories {
 
 @media screen and (max-width: 240px) {
 
-	#home{
-		min-height: 500px;
-	}
-
 	#home h1{
 		font-size: 2em;
 		padding-top: 65%;
-	}
-
-	#home .searchbox{
-		width: 90%;
-		padding-top: 10%;
 	}
 
 	#home .boxsearch{
@@ -379,18 +373,9 @@ ul.categories {
 
 @media screen and (min-width: 240px) and (max-width: 320px) {
 
-	#home{
-		min-height: 500px;
-	}
-	
 	#home h1{
 		font-size: 2.5em;
 		padding-top: 55%;
-	}
-
-	#home .searchbox{
-		width: 90%;
-		padding-top: 10%;
 	}
 
 	#home .boxsearch{
@@ -404,19 +389,10 @@ ul.categories {
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
-	
-	#home{
-		min-height: 500px;
-	}
 
 	#home h1{
 		font-size: 2.5em;
 		padding-top: 35%;
-	}
-
-	#home .searchbox{
-		width: 90%;
-		padding-top: 10%;
 	}
 
 	#home .boxsearch{

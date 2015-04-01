@@ -9,13 +9,6 @@
 
         <h1 class="titredef">
           <a class="big"><?php the_title(); ?></a>
-          <!-- AFFICHER LA CATEGORIE
-            <?php
-              foreach((get_the_category()) as $category) {
-              echo $category->cat_name . ' ';
-              }
-            ?> 
-          -->
           <a class="revenir" href="<?php echo $_SERVER['HTTP_REFERER']; ?>">Retour à la liste des mots</a></h1> 
 
           <p class="contentdef"><?php the_content(); ?> </p>

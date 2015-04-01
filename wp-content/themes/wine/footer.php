@@ -21,9 +21,9 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
 		<!--<script src="<?php bloginfo('template_directory');?>/js/jquery-ui.js"></script>-->
 	<script src="<?php bloginfo('template_directory');?>/js/alert.js"></script>
-	<script src="<?php bloginfo('template_directory');?>/js/autocomplete.js"></script>
+<?php /*	<script src="<?php bloginfo('template_directory');?>/js/autocomplete.js"></script>
 	
-	<!--<script>
+	<script>
 		(function(){
 			var searchBar = $('#recherche');
 			if (searchBar.length) {
@@ -38,12 +38,11 @@
 			endwhile;
 				echo 'source :' . json_encode($array) . ',';
 			 endif; ?>
-					minLength : 3
+					minLength : 1
 				});
 			}
 		})();
-	</script>-->
-
+	</script>*/?>
 
 </body>
 </html>
