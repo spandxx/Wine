@@ -21,7 +21,7 @@
 
 
 
-			<div class="col-xs-6 col-sm-3 col-sm-offset-2 list-cat">
+			<div class=" col-sm-3 col-sm-offset-2 list-cat">
 			    
 			     
 				<?php
