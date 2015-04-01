@@ -9,6 +9,8 @@
 <section id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
+		<?php the_title(); ?>
+
 		<?php if ( have_posts() ) : ?>
 
 				<h1 class="page-title"><?php printf( __( 'Search Results for: %s', 'twentyfifteen' ), get_search_query() ); ?></h1>
