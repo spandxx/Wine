@@ -3,6 +3,6 @@
 <div id="fake-head">
 
 </div>
-	error
+	<h1>error</h1>
 
 <?php get_footer(); ?>
