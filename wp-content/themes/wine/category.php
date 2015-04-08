@@ -5,25 +5,19 @@
 
 <section id="cat">
 
-				<div class="test">	
-				<div class="carre">
-
-				</div>
-				<div class="carre">
-					
-				</div>
-				<div class="carre">
-					
-				</div>
-				</div>
-
-				<!--<?php $my_query = new WP_Query(array('post_type' => 'publicite')); ?>
+			<div class="pubcatleft floatleft">
+				<?php $my_query = new WP_Query(array('post_type' => 'publicite')); ?>
 				<?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
 
-					<a href="<?php the_field('link_cat_left'); ?>" target="_blank"><img class="img-responsive pubcat" src="<?php the_field('image_cat_left');?>"></a>
+					<a href="<?php the_field('link_up_left'); ?>" target="_blank"><img class="img-responsive imgpubcatleft" src="<?php the_field('image_up_left');?>"></a>
+
+					<a href="<?php the_field('link_middle_left'); ?>" target="_blank"><img class="img-responsive imgpubcatleft" src="<?php the_field('image_middle_left');?>"></a>
+
+					<a href="<?php the_field('link_down_left'); ?>" target="_blank"><img class="img-responsive imgpubcatleft" src="<?php the_field('image_down_left');?>"></a>
 
 				<?php wp_reset_query(); ?>
-				<?php endwhile; ?>-->
+				<?php endwhile; ?>
+			</div>
 
 	<div class="container floatleft">
 		<div class="row">
@@ -36,15 +30,6 @@
 				?>
 
 				</h1>
-				
-				<!--<?php $my_query = new WP_Query(array('post_type' => 'publicite')); ?>
-				<?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
-
-					<a href="<?php the_field('link_cat_left'); ?>" target="_blank"><img class="img-responsive pub-cat" src="<?php the_field('image_cat_left');?>"></a>
-
-				<?php wp_reset_query(); ?>
-				<?php endwhile; ?>-->
-
 
 			</div>
 
@@ -81,11 +66,15 @@
 			</div>
 		</div>
 
-	<div class="testt">
-		<div id="grocarre">
-			
-		</div>
-	</div>
+		<div class="pubcatright floatleft">
+				<?php $my_query = new WP_Query(array('post_type' => 'publicite')); ?>
+				<?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
+
+					<a href="<?php the_field('link_right'); ?>" target="_blank"><img class="img-responsive imgpubcatright" src="<?php the_field('image_right');?>"></a>
+
+				<?php wp_reset_query(); ?>
+				<?php endwhile; ?>
+			</div>
 
 </section>
 

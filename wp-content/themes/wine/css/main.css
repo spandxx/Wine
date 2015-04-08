@@ -218,13 +218,6 @@ header{
 
 }
 
-/*.pub-cat{
-	margin-top: 30px;
-	width: 160px;
-	height: 400px;	
-	
-}*/
-
 .list-cat {
 	font-family: 'coolvetica';
 	font-size: 25px;
@@ -246,36 +239,29 @@ header{
 	color: #c1403d;
 }
 
-/*.pubcat{
-	max-width: 19%;
-	max-height: 100%;
-	float: left;
-}*/
-
-.test{
-	float: left;
-	width: 18%;
+.pubcatleft{
+	width: 19%;
 }
 
-.carre{
+.imgpubcatleft{
 	width: 250px;
 	height: 250px;
-	background-color: blue;
-	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 12px;
+}
+
+.pubcatright{
+	width: 19%;
+}
+
+.imgpubcatright{
+	width: 250px;
+	height: 774px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-.testt{
-	float: left;
-	width: 18%;
-}
-
-#grocarre{
-	width: 350px;
-	height: 750px;
-	background-color: blue;
-}
 
 /* FOOTER */
 
