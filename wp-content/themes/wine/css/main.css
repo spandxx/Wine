@@ -196,6 +196,10 @@ header{
 
 /* PAGE CATEGORIES */
 
+.floatleft{
+	float: left;
+}
+
 #fake-head{
 	width: 100%;
 	height: 100px;
@@ -214,12 +218,12 @@ header{
 
 }
 
-.pub-cat{
+/*.pub-cat{
 	margin-top: 30px;
 	width: 160px;
 	height: 400px;	
 	
-}
+}*/
 
 .list-cat {
 	font-family: 'coolvetica';
@@ -240,6 +244,37 @@ header{
 
 #titre-cat::first-letter{
 	color: #c1403d;
+}
+
+/*.pubcat{
+	max-width: 19%;
+	max-height: 100%;
+	float: left;
+}*/
+
+.test{
+	float: left;
+	width: 18%;
+}
+
+.carre{
+	width: 250px;
+	height: 250px;
+	background-color: blue;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.testt{
+	float: left;
+	width: 18%;
+}
+
+#grocarre{
+	width: 350px;
+	height: 750px;
+	background-color: blue;
 }
 
 /* FOOTER */

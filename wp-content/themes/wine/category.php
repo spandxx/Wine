@@ -4,7 +4,28 @@
 </div>
 
 <section id="cat">
-	<div class="container">
+
+				<div class="test">	
+				<div class="carre">
+
+				</div>
+				<div class="carre">
+					
+				</div>
+				<div class="carre">
+					
+				</div>
+				</div>
+
+				<!--<?php $my_query = new WP_Query(array('post_type' => 'publicite')); ?>
+				<?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
+
+					<a href="<?php the_field('link_cat_left'); ?>" target="_blank"><img class="img-responsive pubcat" src="<?php the_field('image_cat_left');?>"></a>
+
+				<?php wp_reset_query(); ?>
+				<?php endwhile; ?>-->
+
+	<div class="container floatleft">
 		<div class="row">
 			<div class="col-xs-6 col-sm-3 col-md-3 lettre">
 				<h1 class="titrelettre">
@@ -15,7 +36,15 @@
 				?>
 
 				</h1>
-				<img class="img-responsive pub-cat" src="<?php bloginfo('template_directory'); ?>/img/calque2.png"></a>
+				
+				<!--<?php $my_query = new WP_Query(array('post_type' => 'publicite')); ?>
+				<?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
+
+					<a href="<?php the_field('link_cat_left'); ?>" target="_blank"><img class="img-responsive pub-cat" src="<?php the_field('image_cat_left');?>"></a>
+
+				<?php wp_reset_query(); ?>
+				<?php endwhile; ?>-->
+
 
 			</div>
 
@@ -31,7 +60,7 @@
 						'posts_per_page'   	=> '20',
 						'category'         	=> $cat_id,
 						'order' 			=> 'ASC',
-						'orderby'           => 'title',
+						'orderby'           => 'rand',
 						'post_type'        	=> 'post',
 					);
 
@@ -51,6 +80,12 @@
 
 			</div>
 		</div>
+
+	<div class="testt">
+		<div id="grocarre">
+			
+		</div>
+	</div>
 
 </section>
 
