@@ -12,16 +12,16 @@
 					<?php $my_query = new WP_Query(array('post_type' => 'publicite')); ?>
 					<?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
 
-						<a href="<?php the_field('link_up_left'); ?>" target="_blank">
-							<img class="img-responsive marginpubcat" src="<?php the_field('image_up_left');?>"/>
+						<a href="<?php the_field('link_up_left_cat'); ?>" target="_blank">
+							<img class="img-responsive marginpubcat" src="<?php the_field('image_up_left_cat');?>"/>
 						</a>
 
-						<a class="displaynone" href="<?php the_field('link_middle_left'); ?>" target="_blank">
-							<img class="img-responsive marginpubcat" src="<?php the_field('image_middle_left');?>"/>
+						<a class="displaynone" href="<?php the_field('link_middle_left_cat'); ?>" target="_blank">
+							<img class="img-responsive marginpubcat" src="<?php the_field('image_middle_left_cat');?>"/>
 						</a>
 
-						<a class="displaynone" href="<?php the_field('link_down_left'); ?>" target="_blank">
-							<img class="img-responsive marginpubcat" src="<?php the_field('image_down_left');?>"/>
+						<a class="displaynone" href="<?php the_field('link_down_left_cat'); ?>" target="_blank">
+							<img class="img-responsive marginpubcat" src="<?php the_field('image_down_left_cat');?>"/>
 						</a>
 
 					<?php wp_reset_query(); ?>
@@ -47,7 +47,7 @@
 					$cat_id = $categories[0]->cat_ID;
  
 					$args = array(
-						'posts_per_page'   	=> '20',
+						'posts_per_page'   	=> '100',
 						'category'         	=> $cat_id,
 						'order' 			=> 'ASC',
 						'orderby'           => 'rand',
@@ -60,7 +60,7 @@
 
 						<div id="titre-cat" class="col-xs-6 col-md-4">
 					
-							<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a>
+							<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><h1><?php the_title(); ?></h1></a>
 
 						</div>
 
@@ -72,7 +72,7 @@
 				<?php $my_query = new WP_Query(array('post_type' => 'publicite')); ?>
 				<?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
 
-					<a href="<?php the_field('link_right'); ?>" target="_blank"><img class="img-responsive" src="<?php the_field('image_right');?>"></a>
+					<a href="<?php the_field('link_right_cat'); ?>" target="_blank"><img class="img-responsive" src="<?php the_field('image_right_cat');?>"></a>
 
 				<?php wp_reset_query(); ?>
 				<?php endwhile; ?>
