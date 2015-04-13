@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+	<?php get_header(); ?>
 
 	<div id="home">
 		<h1>Vous cherchez une définition </br>sur le vin et la dégustation ?</h1>
