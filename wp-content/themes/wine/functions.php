@@ -42,5 +42,7 @@ function cpt_init() {
 }
 
 add_action('init', 'cpt_init');
+
+
 	
 ?>

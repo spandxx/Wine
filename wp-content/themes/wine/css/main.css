@@ -94,6 +94,10 @@ html, body{
 	float: left;
 }
 
+.ui-autocomplete { 
+	z-index: 10000; 
+}
+
 #home .boxsearch{
 	height: 50px;
 	font-size: 2em;

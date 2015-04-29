@@ -6,8 +6,10 @@
 		<div class="container containmargintop">
 			<div class="row">
 				<div class="col-md-11 col-md-offset-0 col-xs-offset-1 col-xs-9">
-					<form method="get" id="searchform" action="<?php bloginfo('home'); ?>/">
-						<input type="text" name="s"  class="boxsearch" id="s"/>
+					<!--<form method="get" id="searchform" action="<?php bloginfo('home'); ?>/">-->
+					<form class="search-form" action="<?php bloginfo('home'); ?>" method="get" role="search">
+						<input class="boxsearch" type="search" title="Rechercher :" id="s" name="s" value="" placeholder="Recherche…">
+						<!--<input type="text" name="s" id="s" class="boxsearch" onfocus="doClear(this)" value="<?php _e('Search'); ?>"/>-->
 				</div>
 				<div class="col-md-1 col-xs-1">
 					<span class="input-group-btn">
