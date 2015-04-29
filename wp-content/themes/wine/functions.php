@@ -42,5 +42,17 @@ function cpt_init() {
 }
 
 add_action('init', 'cpt_init');
-	
+
+
+add_action('template_redirect', 'single_result');
+function single_result() {
+    if (is_search()) {
+        global $wp_query;
+        if ($wp_query->post_count == 1) {
+            wp_redirect( get_permalink( $wp_query->posts['0']->ID ) );
+        }
+    }
+}
+
+
 ?>

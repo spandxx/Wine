@@ -14,8 +14,9 @@ get_header(); ?>
 
 		<?php if ( have_posts() ) : ?>
 
-			<?php printf( __( 'Search Results for: %s', 'twentyfifteen' ), get_search_query() ); ?>
-			
+			<header class="page-header">
+				<h1 class="page-title"><?php printf( __( 'Search Results for: %s', 'twentyfifteen' ), get_search_query() ); ?></h1>
+			</header><!-- .page-header -->
 
 			<?php
 			// Start the loop.

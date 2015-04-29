@@ -1,7 +1,9 @@
-	<?php get_header(); ?>
+<?php get_header(); ?>
 
-<div id="fake-head">
-</div>
+<?php if ( !is_home() ){ ?>
+	<div id="fake-head">
+	</div>
+<?php } ?>
 
 <section id="cat">
 
@@ -28,7 +30,7 @@
 					<?php endwhile; ?>
 			</div>
 
-			<div class="col-xs-12 col-sm-offset-1 col-sm-6 col-md-offset-1 col-md-1 lettre">
+			<div class="col-xs-12 col-sm-offset-0 col-sm-8 col-md-2 lettre tohide" id="content">
 				<h1 class="titrelettre">
 					<?php          
 						foreach((get_the_category()) as $category) {
@@ -40,17 +42,17 @@
 
 
 
-			<div class="col-xs-12 col-sm-offset-1 col-sm-6 col-md-4 list-cat">
+			<div class="col-xs-12 col-sm-offset-1 col-md-offset-0 col-sm-6 col-md-4 list-cat tohide" id="content">
 				
 				<?php
 					$categories = get_the_category();
 					$cat_id = $categories[0]->cat_ID;
  
 					$args = array(
-						'posts_per_page'   	=> '100',
+						'posts_per_page'   	=> '36',
 						'category'         	=> $cat_id,
 						'order' 			=> 'ASC',
-						'orderby'           => 'rand',
+						'orderby'			=> 'title',
 						'post_type'        	=> 'post',
 					);
 
@@ -68,7 +70,7 @@
 
 			</div>
 
-			<div class="col-md-offset-1 col-md-1 displaynonee">
+			<div class="col-md-offset-1 col-md-2 ">
 				<?php $my_query = new WP_Query(array('post_type' => 'publicite')); ?>
 				<?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
 

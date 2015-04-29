@@ -30,15 +30,8 @@
 
       <?php endwhile; ?> 
 
-      <div class="col-sm-2 col-sm-offset-2 blog-sidebar">
-
-        <img class="img-responsive pub" src="<?php bloginfo('template_directory');?>/img/calque2.png"></a>
-
-      </div>
-
     </div>
   </div>
-</div>
 </section>
 
 
