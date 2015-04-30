@@ -6,7 +6,7 @@ function alertEnglish(){
 
 //SCROLL HEADER
 $(window).scroll(function() {
-		    if ($(this).scrollTop() > 0) { //use `this`, not `document`
+		    if ($(this).scrollTop() > 0) {
 		        $('.jshide').css({
 		            'display': 'none'
 		        });

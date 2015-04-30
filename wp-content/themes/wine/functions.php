@@ -43,8 +43,6 @@ function cpt_init() {
 
 add_action('init', 'cpt_init');
 
-
-<<<<<<< HEAD
 add_action('template_redirect', 'single_result');
 function single_result() {
     if (is_search()) {
@@ -56,7 +54,4 @@ function single_result() {
 }
 
 
-=======
-	
->>>>>>> 5375b0a082301de4d7969199618ab22937e6399f
 ?>

@@ -123,7 +123,8 @@ html, body{
 }
 
 .nopadding{
-	padding: 0;
+	padding-left: 0;
+	padding-right: 0;
 }
 
 #homenext{
@@ -207,7 +208,7 @@ html, body{
 
 #fake-head{
 	width: 100%;
-	height: 100px;
+	height: 85px;
 }
 
 h1.titrelettre{

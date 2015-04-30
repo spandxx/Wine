@@ -23,20 +23,7 @@
 		<!--<script src="<?php bloginfo('template_directory');?>/js/jquery-ui.js"></script>-->
 	<script src="<?php bloginfo('template_directory');?>/js/main.js"></script>
 
-<<<<<<< HEAD
-
-=======
-				array_push($array, get_the_title());
-				$i;
-			endwhile;
-				echo 'source :' . json_encode($array) . ',';
-			 endif; ?>
-					minLength : 1
-				});
-			}
-		})();
-	</script>*/?>
 <?php wp_footer();?>
->>>>>>> 5375b0a082301de4d7969199618ab22937e6399f
+
 </body>
 </html>
