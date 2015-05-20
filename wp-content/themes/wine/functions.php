@@ -54,4 +54,20 @@ function single_result() {
 }
 
 
+add_filter( 'search_autocomplete_modify_results', 'saModifyResults' );
+
+function saModifyResults( $results ) {
+  $newResults = array();
+  foreach( $results as $result ) {
+    $newResults[] = array(
+      'title' => $result['title'],
+      'url' => $result['url']
+    );
+  }
+  return $newResults;
+}
+
+
+
+
 ?>

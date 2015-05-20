@@ -93,6 +93,59 @@ html, body{
 	z-index: 10000; 
 }
 
+/* THEME SEARCH BAR */
+
+.ui-menu {
+	list-style:none;
+	padding: 2px;
+	margin: 0;
+	display:block;
+	float: left;
+
+}
+.ui-menu .ui-menu {
+	margin-top: -3px;
+}
+.ui-menu .ui-menu-item {
+	margin:0;
+	padding: 1 !important;
+	zoom: 1;
+	float: left;
+	clear: left;
+	width: 100%;
+	border-color: #c1403d !important;
+
+}
+.ui-menu .ui-menu-item a {
+	text-decoration:none;
+	display:block;
+	padding:.2em .4em;
+	line-height:1.5;
+	zoom:1;
+}
+.ui-menu .ui-menu-item a.ui-state-focus,
+.ui-menu .ui-menu-item a.ui-state-hover,
+.ui-menu .ui-menu-item a.ui-state-active {
+	font-weight: normal;
+	margin: -1px;
+	background: #FFFF00 !important;
+	color: #FFFFFF;
+	text-shadow: 0px 1px 1px #234386;
+	border-color: #FFFF00 !important;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+}
+
+.ui-autocomplete ui-front ui-menu ui-widget ui-widget-content{
+	color: #FFFF00;
+}
+
+
+
+/* Fin THEME SEARCH BAR */
+
+
 #home .boxsearch{
 	height: 50px;
 	font-size: 2em;
