@@ -56,8 +56,7 @@ html, body{
 }
 
 .imglogo{
-	width: 120;
-	height: 80px
+	height: 80px;
 }
 
 /* HOMEPAGE */
@@ -569,6 +568,26 @@ section.home{
 
 	#home .buttonsearch{
 		height: 30px;
+	}
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1300px) {
+
+	.imglogo{
+		height: 70px;
+	}
+
+	#home h1{
+		font-size: 3.3em;
+		padding-top: 18%;
+	}
+	#home .boxsearch{
+		height: 45px;
+	}
+
+	#home .buttonsearch{
+		height: 45px;
 	}
 
 }

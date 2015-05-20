@@ -41,7 +41,7 @@
 					$cat_id = $categories[0]->cat_ID;
  
 					$args = array(
-						'posts_per_page'   	=> '36',
+						'posts_per_page'   	=> '33',
 						'category'         	=> $cat_id,
 						'order' 			=> 'ASC',
 						'orderby'			=> 'title',
@@ -62,11 +62,13 @@
 
 			</div>
 
-			<div class="col-md-offset-1 col-md-2 ">
+			<div class=" col-md-2 ">
 				<?php $my_query = new WP_Query(array('post_type' => 'publicite')); ?>
 				<?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
 
-					<a href="<?php the_field('link_right_cat'); ?>" target="_blank"><img class="img-responsive" src="<?php the_field('image_right_cat');?>"></a>
+					<a href="<?php the_field('link_right_cat'); ?>" target="_blank">
+						<img class="img-responsive" src="<?php the_field('image_right_cat');?>">
+					</a>
 
 				<?php wp_reset_query(); ?>
 				<?php endwhile; ?>
