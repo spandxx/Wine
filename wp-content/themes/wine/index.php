@@ -9,11 +9,7 @@
 
 				<div class="col-md-9 col-md-offset-1 col-xs-offset-1 col-xs-9 nopadding">
 					<form class="search-form" action="<?php bloginfo('home'); ?>" method="get" role="search">
-<<<<<<< HEAD
 						<input class="boxsearch" type="search" title="Rechercher :" id="s" name="s" value="">
-=======
-						<input class="boxsearch" type="search" title="Rechercher" id="s" name="s" value="" placeholder="Recherche…">
->>>>>>> 632b8265b917507ff7c48417c2dc8543ff2a9116
 				</div>
 				<div class="col-md-1 col-xs-1 nopadding">
 					<span class="input-group-btn">
