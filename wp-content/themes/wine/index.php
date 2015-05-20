@@ -7,9 +7,9 @@
 		<div class="container containmargintop">
 			<div class="row">
 
-				<div class="col-md-11 col-md-offset-0 col-xs-offset-1 col-xs-9 nopadding">
+				<div class="col-md-9 col-md-offset-1 col-xs-offset-1 col-xs-9 nopadding">
 					<form class="search-form" action="<?php bloginfo('home'); ?>" method="get" role="search">
-						<input class="boxsearch" type="search" title="Rechercher :" id="s" name="s" value="" placeholder="Recherche…">
+						<input class="boxsearch" type="search" title="Rechercher :" id="s" name="s" value="">
 				</div>
 				<div class="col-md-1 col-xs-1 nopadding">
 					<span class="input-group-btn">

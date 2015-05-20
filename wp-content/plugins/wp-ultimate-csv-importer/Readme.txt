@@ -1,28 +1,29 @@
-=== Import a CSV with Ultimate CSV Importer ===
+=== Import CSV with Ultimate CSV Importer ===
 Contributors: smackcoders
 Donate link: http://www.smackcoders.com/donate.html
 Tags: wp all import, batch, csv, excel, import, spreadsheet, autoblog, Autoblogger, csvimporter, data, dataimport, importer, wpcsvimporter, wpimporter, acf, auto blog, csv import, csv to post, data import, Easy CSV Importer, eci, import plugin, admin, user, users, Advanced CSV Import, Advanced CSV Importer, affiliate, amazon, author, automatic, blog, bulk, bulk edit, bulk editor, categories, comments, content, csv file, csv format, csv importer, custom post, e-commerce, free, images, language, manage, media, meta, multisite, News, page, photos, pictures, plugin, Post, seo, shop, shortcode, tags, Taxonomy, text, title, video, eshop, woocommerce, wordpress, xml, youtube, export
 Requires at least: 4.1
 Tested up to: 4.2.1
-Stable tag: 3.7.2
-Version: 3.7.2
+Stable tag: 3.7.4
+Version: 3.7.4
 Author: smackcoders
 Author URI: http://profiles.wordpress.org/smackcoders/
 
 License: GPLv2 or later
 
-Import a CSV with Ultimate CSV Importer as posts, pages, eshop products, custom posts with custom fields in few simple clicks 
+Import CSV with Ultimate CSV Importer made simple to import & export posts, pages, custom posts and custom fields in few simple clicks 
 
 == Description ==
-Import a CSV as wordpress posts made very simple and easy even for novice users as in few clicks and 3 simple steps with Ultimate CSV Importer plugin. Wordpress Ultimate CSV Importer V3.7.2 is updated with major issue fix and 4.2.1 compatibility.  Users can get product manual and sample csv files etc., from - http://www.wpultimatecsvimporter.com/
 
-** New Features of Wordpress Ultimate CSV Importer Pro V4.0 **
+Import CSV data to WordPress is made very easy even for novice users as in few clicks and 3 simple steps with Ultimate CSV Importer plugin. WordPress Ultimate CSV Importer V3.7.4 is updated with allow author/editor to import option and 4.2.2 compatibility.  Users can get product manual and sample csv files etc., from http://www.wpultimatecsvimporter.com/
+
+** New Features of WordPress Ultimate CSV Importer Pro V4.0 **
 
 * Added common module for all features.
 * Static/Dynamic/Formula content feature.
 * Advanced image handling with content and featured image short codes.
 * Added update feature from File Manager.
-* Managing logs with anytime downloadable logs.
+* Managing logs with any time downloadable logs.
 * Auto delimiter detection.
 * Nested category & Nested Taxonomies with Yoast SEO support.
 * Added Ajax save in Setting module.
@@ -31,16 +32,16 @@ Import a CSV as wordpress posts made very simple and easy even for novice users 
 * Mapping template feature with edit option.
 * Auto mapping and specific column update in Update feature.
 
-** Now stable version 3.7.2 available to download with hot linked featured image fix. Visit [www.wpultimatecsvimporter.com](http://www.wpultimatecsvimporter.com) for more news and future plans.
+** Now stable version 3.7.4 available to download with allow author/editor users to import fix. Visit [www.wpultimatecsvimporter.com](http://www.wpultimatecsvimporter.com) for more news and future plans.
 
-WP Ultimate CSV Importer Plugin proven much effective advanced CSV File Importer With Ultimate User Friendly Features. It is much easy now even for newbies to import csv file exported from any tool, app or software. Import as any wordpress post type and associated fields by simple mapping feature. Now import any CSV file as thousands of post, page and custom post types. This is admin side free plugin helps you in bulk edit, create and import posts type for your blog or site. 
+WP Ultimate CSV Importer Plugin proven much effective advanced CSV File Importer With Ultimate User Friendly Features. It is much easy now even for newbies to import csv file exported from any tool, app or software. Import as any WordPress post type and associated fields by simple mapping feature. Now import any CSV file as thousands of post, page and custom post types. This is admin side free plugin helps you in bulk edit, create and import posts type for your blog or site. 
 
 = Video Walkthrough =
 
 <p>https://www.youtube.com/watch?v=Guv5zR7fgW0&list=PL2k3Ck1bFtbQqFhOK7g08kxENI4qQkmC</p>
 
 = Highlights =
-* Import CSV from any source as wordpress posts
+* Import CSV from any source as WordPress posts
 * New Terminate & Continue feature is added.
 * Complete export feature with improved filters
 * Import external/internal images in line to any posts
@@ -56,8 +57,8 @@ WP Ultimate CSV Importer Plugin proven much effective advanced CSV File Importer
 * Scheduled Publishing
 * Duplicate Title and content handling
 * Multi Lingual import (CSV format must be UTF-8 without BOM)
-* Mutisite also supported now
-* Compatible to wordpress themes
+* Multi-site also supported now
+* Compatible to WordPress themes
 * Better alternative for xml
 * Post Format option added
 * Page template attribute feature
@@ -77,13 +78,13 @@ WP Ultimate CSV Importer Plugin proven much effective advanced CSV File Importer
 * Custom fields support for WP standard
 * Map custom fields by adding new on the fly.
 
-The csv importer supports almost every wordpress modules and plugin fields as follows. Import data feed periodically from csv file as 
+The csv importer supports almost every WordPress modules and plugin fields as follows. Import data feed periodically from csv file as 
 
 = Supported Core Modules and Attributes =
 * Post
 * Page
 * Standard WP Custom Post types
-* Wordpress themes custom posts
+* WordPress themes custom posts
 * Custom post type UI plugin Post types
 * Users with roles
 * Comments
@@ -95,7 +96,7 @@ The csv importer supports almost every wordpress modules and plugin fields as fo
 
 It is more easy to convert any off line database maintained in Excel xls or spread sheets into valuable content for your web site without missing any. It is possible now to schedule a periodical content update, maintenance,  prices, offers, coupons and inventory etc.
    
-Much improved User interface with most flexible jquery plugin features and bootstrap UI design makes csv import more simple, easy, fast and even more flexible for better user experience. With improved Multi site, buddy press compatibility (except user import module) works well for most of the best wordpress themes available online. Now manage multi site & buddy press, Amazon data import, affiliates blog, product inventory, ecommerce store, multi author blog, automatic news import, photo blog etc periodically with simple click import. 
+Much improved User interface with most flexible jquery plugin features and bootstrap UI design makes csv import more simple, easy, fast and even more flexible for better user experience. With improved Multi site, buddy press compatibility (except user import module) works well for most of the best WordPress themes available online. Now manage multi site & buddy press, Amazon data import, affiliates blog, product inventory, ecommerce store, multi author blog, automatic news import, photo blog etc periodically with simple click import. 
 
 = Common Issues =
 
@@ -109,7 +110,7 @@ php_value auto_append_file none
 
 This will solve your issue or get support from hosting if you dint have sufficient permission.
 
-= Extended Pro Power Features in Wp Ultimate CSV Importer = 
+= Extended Pro Power Features in WP Ultimate CSV Importer = 
 * Types Plugin support
 * Woocommerce CSV importer with product variation
 * Marketpress Lite Importer
@@ -120,12 +121,12 @@ This will solve your issue or get support from hosting if you dint have sufficie
 * Auto Mapping Feature
 * Strict UTF-8 auto conversion
 * All In One SEO Fields Import 
-* Wordpress SEO by Yoast Fields Import
+* WordPress SEO by Yoast Fields Import
 * Custom Post Type UI plugin import
 * Advanced Custom Fields Import 
 * CCTM Posts and Fields Import
 * Woocommerce CSV Importer, 
-* wp ecommerce Products CSV Importer with WP e-Commerce Custom Fields 
+* WP ecommerce Products CSV Importer with WP e-Commerce Custom Fields 
 * Categories & tags Import with Category icons plugin support
 * Custom Taxonomy import
 * [Get Complete List of supported 3rd party plugins here](http://www.smackcoders.com/wp-ultimate-csv-importer-pro.html)
@@ -135,12 +136,12 @@ This will solve your issue or get support from hosting if you dint have sufficie
 
 = Imp. Notes =
 * All CSV files should be should be strictly UTF-8 CSV format. Now this can be handled by plugin.
-* All wordpress supported languages can imported with csv format as UTF-8 without BOM (See FAQ for instructions).
+* All WordPress supported languages can imported with csv format as UTF-8 without BOM (See FAQ for instructions).
 * User import option is disabled for multi site mode.
 * To Schedule posts for publishing provide future date and time in date column in CSV File.
 
 Featured Image Support
-Your wordpress theme should support featured image. If not, please add the following code to where you need to display E.g. wp-contents/themes/header.php
+Your WordPress theme should support featured image. If not, please add the following code to where you need to display E.g. wp-contents/themes/header.php
 `<?php add_theme_support( 'post-thumbnails' ); ?>`
 
 Also you can follow the instructions as given here
@@ -169,7 +170,7 @@ Need More Help, Cool. Browse Below Links
 
 1. New Interactive Dashboard with Chart and Graph
 2. Advanced CSV Importer With Ultimate User Friendly Features with drag and drop etc.
-3. User friendly easy mapping for any csv file data to wordpress field attributes with sampling.
+3. User friendly easy mapping for any csv file data to WordPress field attributes with sampling.
 4. Advanced duplicate post name and content check with server request control for high performance factor.
 5. Detailed real time log to know pinpoint status.
 6. Module based environment for easy and reduced interface to enable most required modules and when ever needed.
@@ -197,8 +198,15 @@ This will solve your issue or get support from hosting if you dint have sufficie
 
 == Changelog ==
 
+= 3.7.4 =
+* Fixed : Allow Editor/Author to import.(Multisite also).
+* Added : WordPress 4.2.2 compatibility.
+
+= 3.7.3 =
+* Fixed: Vulnerablility security issue fix. 
+
 = 3.7.2 =
-* Added: wordpress 4.2 and 4.2.1 compatibility.
+* Added: WordPress 4.2 and 4.2.1 compatibility.
 * Fixed: Blank page conflict issue 
 
 = 3.7.1 = 
@@ -233,7 +241,7 @@ This will solve your issue or get support from hosting if you dint have sufficie
 
 = 3.6.73 =
 * Added: WordPress 4.0 compatibility checked.
-* Added: https format support for all wp instances.
+* Added: https format support for all WP instances.
 * Added: Warning to guide user to create uploads directory with writeable permissions.
 * Fixed: Image handling issues in featured image.
 * Fixed: Multisite compatible issue.
@@ -441,6 +449,12 @@ This will solve your issue or get support from hosting if you dint have sufficie
 
 
 == Upgrade Notice ==
+
+= 3.7.4 =
+* Upgrade now for allow author/editor to import fix.
+
+= 3.7.3 =
+* Upgrade now for Vulnerability fix.
 
 = 3.7.2 =
 * Important Upgrade for wordpress 4.2 and above
