@@ -10,6 +10,8 @@
   <link rel="icon" href="<?php bloginfo('template_directory');?>/img/favicon.ico" type="image/x-icon">
   
   <?php wp_head();?>
+
+  <title>Les Mots du vin - Dictionnaire de l'oenologie</title>
   
 </head>
 
