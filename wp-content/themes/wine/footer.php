@@ -11,6 +11,10 @@
 			wp_list_categories($args);
 		?>
 		</ul>
+	
+		<h2 class="text-center">&copy; Les Mots du Vin - Tous droits réservés - Attention l'abus d'alcool est dangereux pour la santé.</h2>
+		<a href="http://www.abcdegustation.fr/index.cfm"><h2 class="text-center">Cours d'oenologie dans plus de 12 villes en France.</h2></a>
+
 	</footer>
 <?php } ?>
 

@@ -18,14 +18,10 @@
 <body>
 
   <nav class="navbar navbar-default navbar-fixed-top colornavbarheader jshide">
-    <div class="container">
-      <div class="navbar-header">
+    <div class="container col-md-offset-5 col-xs-offset-4">
+      <div class="navbar-header text-center">
         <a href="<?php echo home_url(); ?>">
-          <div class="row">
-            <div class="col-md-10">
-              <img class="img-responsive imglogo" src="<?php bloginfo('template_directory');?>/img/logo.png"/> 
-            </div>
-          </div>
+              <img class="img-responsive imglogo" src="<?php bloginfo('template_directory');?>/img/logo.png" alt="logo les mots du vin"/>
         </a>
       </div>
     </div>
